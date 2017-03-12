@@ -1,6 +1,8 @@
 class System {
-	constructor(strategy) {
+	constructor(strategy, room) {
 		this.strategy = strategy;
+		this.room = room;
+		this.player = [];
 	}
 	init() {
 		// 生成牌
@@ -20,6 +22,11 @@ class System {
 	}
 
 	rebot() {
-
+		// 重启
 	}
+
+	broadcastMessage(){
+		// 广播信息
+	}
+
 }
